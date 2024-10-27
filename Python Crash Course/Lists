@@ -1,0 +1,4 @@
+my_list = [1, 2, 3, 4]
+my_list.insert(-1, 'a')
+print(my_list) 
+ # Output: [1, 2, 3, 'a', 4]. When you use the insert method, it shifts the elements to the right to make space for the new element.
