@@ -1,7 +1,7 @@
 import time
 
 my_time = int(input("Enter the time in seconds: "))
-
+# STFU
 for x in range (my_time,0,-1):
     seconds = x % 60 # Mod is here just to reset the second hand to zero once 60 seconds is reached
     minutes = int(x/60) %60 # /60 converts seconds to minutes and % 60 gives the remainder
@@ -21,5 +21,7 @@ print("Time's up")
 #   Every time we reach 3600 seconds (or multiples of 3600), the minutes reset to 0, and the hours increment.
 # - We don't use a modulo operation for hours because there is no limit (hours can keep increasing as no days included).
 # - The time.sleep(1) ensures the countdown updates every second.
-# Int is very crucial for giving whole number time
+# Int is very crucial for giving whole number time....
+
+# Color line shows change.
 
